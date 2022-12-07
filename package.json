@@ -1,0 +1,25 @@
+{
+  "name": "cryptocoin",
+  "version": "1.0.0",
+  "description": "Getting the list of all the top 100 cryptocurrency coins in the world",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dk7696822/cryptoCoinProject.git"
+  },
+  "author": "Deepak Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dk7696822/cryptoCoinProject/issues"
+  },
+  "homepage": "https://github.com/dk7696822/cryptoCoinProject#readme",
+  "dependencies": {
+    "axios": "^1.2.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.0"
+  }
+}
