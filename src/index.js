@@ -8,7 +8,7 @@ app.use(express.json());
 mongoose.set("strictQuery", true);
 
 mongoose
-  .connect(process.env.MONGO_DB, {
+  .connect("mongodb+srv://project2:VfktOc3jUKliwHi8@cluster1.bil9ljf.mongodb.net/project2", {
     useNewUrlParser: true,
   })
   .then(() => console.log("Mongo DB is connected"))
